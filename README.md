@@ -26,3 +26,25 @@ O objetivo é criar um sistema bancário simples em Python que permita realizar 
   - Mostra o saldo atual formatado no padrão monetário (`R$ 0.00`).
 
 ---
+
+### ✅ Versão 2
+- **Depósito, Saque e Extrato** foram separados em funções.
+- **Cadastro de Usuário**
+  - Nome, CPF (apenas números) e endereço.
+  - Não é permitido cadastrar dois usuários com o mesmo CPF.
+- **Cadastro de Conta Corrente**
+  - Agência fixa `0001`.
+  - Número da conta sequencial.
+  - Uma conta pertence a apenas um usuário, mas um usuário pode ter várias contas.
+- **Extrato (atualizado)**
+  - Exibe também agência, número da conta e titular.
+- **Consulta de Saldo (nova função)**
+  - Consulta saldo de um cliente pelo CPF.
+  - Mostra agência, número da conta e nome do titular.
+
+---
+
+## 📂 Estrutura do projeto
+- `desafio1.py` → Versão 1 do sistema
+- `desafio2.py` → Versão 2 do sistema
+- `README.md` → Documentação do projeto
